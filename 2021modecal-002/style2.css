@@ -1,0 +1,217 @@
+ 
+html {
+  font-size: 17px;
+}
+@media (max-width: 900px) {
+  html { font-size: 15px; }
+}
+@media (max-width: 400px) {
+  html { font-size: 13px; }
+}
+h2{
+	font-size:1.5rem;
+}
+
+h4{
+	font-size:1rem;
+	font-weight:300;
+}
+header{
+	
+	text-align : center;
+}
+main{
+	width: 70vw;
+	margin: auto;
+	margin-bottom:40px;
+}
+@media (max-width: 900px) {
+	main{
+		width: 80vw;
+	}
+}
+@media (max-width: 560px) {
+	main{
+		width: 90vw;
+	}
+}
+#calendar {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap : 20px	
+}
+
+@media (max-width: 900px) {
+	#calendar{
+	grid-template-columns: 1fr 1fr;
+	}
+}
+@media (max-width: 560px) {
+	#calendar{
+	grid-template-columns: 1fr;
+	}
+}
+section {
+	
+}
+
+.laughing {
+	color: #2d6b5f;
+}
+.smile {
+color: #72e3a6;
+}
+.expressionless {
+	color: #dff4c7;
+}
+.frown{
+	color: #edbf98;
+}
+.angry{
+	color: #ea3d36;
+}
+.laughingactuve {
+	background-color: #2d6b5f;
+	color:white
+}
+.smileactive {
+background-color: : #72e3a6;
+color:white
+}
+.expressionlessactive {
+	background-color: : #dff4c7;
+	color:white
+}
+.frownactive{
+	background-color: : #edbf98;
+	color:white
+}
+.angryactive{
+	background-color: : #ea3d36;
+	color:white
+}
+
+
+
+caption{
+	padding-bottom:5px;
+	font-size: 1.2rem;
+	font-weight:bold;
+}
+.daybut{
+	
+	background-color: #888888;
+	width: 1.2rem;
+	height:1.2rem;
+	font-size: 5px;
+	color: white;	
+	border:none;	
+	cursor: pointer;
+	text-align: center;
+    line-height: 1.1rem;
+	padding:0 0 0 0;
+	border-radius: 0.6rem;
+	
+}
+.daybut span{
+	margin:auto
+	
+}
+.daybut:hover{
+	transform: scale(1.1);
+}
+table {
+	width:100%;
+	text-align:center;
+}
+td{
+	width:14.2%;
+}
+
+.weekday{
+	font-size: 0.8rem;
+}
+.moodbut {
+	border:none;
+	background: none;
+	border-radius: 1.1rem;
+	width: 2.2rem;
+	height: 2.2rem;
+	font-size:1.7rem;
+	font-weight: 900;
+	cursor: pointer;
+	margin: 5px 10px 5px 10px;
+	padding: 0 0 0 0;
+}
+
+#oper_zone{
+	position: fixed;
+	z-index: 1;
+	right:0px;
+	top:10%;
+}
+#oper_zone  button{
+	display:block;
+	border:none;
+	border-top-left-radius: 0.7rem;
+	border-bottom-left-radius: 0.7rem;
+	font-size: 1.4rem;
+	font-weight: 900;
+	color:white;
+	padding: 0 0 0 0 ;
+	width: 2.5rem;
+	margin-bottom:5px;
+	height: 2rem;	
+	background-color:#888888;
+	
+}
+#oper_zone  button:active{
+	 transform: scale(0.8);
+	
+}
+#oper_zone button:first-child{
+	background-color:#72e3a6;
+}
+
+footer {
+	margin-bottom:10px;
+	background-color: red;
+}
+
+#stamp{
+	position: fixed;
+	bottom : 0px;	
+	z-index : 99;
+	left: 50%;
+    transform: translateX(-50%);
+}
+#stamp div{
+	background-color: rgb(0,34,99);
+	color: white;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;	
+	padding : 5px 10px 5px 10px;
+	font-size: 1rem;
+}
+#stamp span{
+	color: #eb6d07;
+	font-size: 1rem;
+}
+
+#touch {
+	position: fixed;
+	bottom : 40px;
+	right: 40px;
+	z-index:100;
+	
+}
+#touch input{
+	border-radius : 20px;
+	height:40px;
+	border: none;
+	background-color: rgb(1,30,95);
+	color: white;
+	font-size: 1rem;
+	padding: 0 15px 0 15px;
+}
+

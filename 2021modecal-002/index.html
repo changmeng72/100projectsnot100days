@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="./style2.css" type="text/css">
+<title>2021 Mood Calendar - #002 of #100Days100Projects</title>
+<script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script defer src="./script2.js"></script>
+ 
+</head>
+ 
+<body>
+
+ <header>
+ <h2>2021 Mood Calendar</h2>
+ <h4>~ color each day depending on what your mood was / is ~</h4>
+ <h4> Select mood </h4>
+   <div id='modeselection'>
+    <button class='moodbut laughing' style="background-color:white;color:#2d6b5f" >
+	<b><i class="bi bi-emoji-laughing fa-lg"  ></i></b>
+</button>
+<button class='moodbut smile' style="background-color:white;color:#72e3a6">
+	<i class="bi bi-emoji-smile"></i>
+</button>
+<button class='moodbut expressionless font-weight-bold' style="background-color:white;color:#dff4c7">
+	<i class="bi bi-emoji-expressionless "></i>
+</button>
+<button class='moodbut frown'style="background-color:white;color:#edbf98" >
+	<i class="bi bi-emoji-frown"></i>
+</button>
+<button class='moodbut angry' style="background-color:white;color:#ea3d36">
+	<i class="bi bi-emoji-angry"></i>
+</button>
+   </div>
+   <h4> then click on the circles below </h4>
+   
+ </header>
+ <main>
+ <article>
+    	 
+	
+	<section id="calendar">
+	
+	</section>
+		 
+ </article>
+ </main>
+ 
+ <section id="stamp">
+	<div>Part of <span>#100Days100Projects</span>
+	</div>
+ </section>
+ <section id="touch">
+ <input type="button" value="Get in touch" onclick="showTouch()"/>
+ </section>
+ 
+ <section id="oper_zone" >
+ <button id="oper_shuffle"><i class="bi bi-shuffle"></i></button>
+<button id="oper_restore">
+ <i class="bi bi-arrow-repeat"></i>
+ </button>
+ </section>
+ <footer hidden> 
+this is a footer 
+ </footer>
+ 
+</body>
+</html>
